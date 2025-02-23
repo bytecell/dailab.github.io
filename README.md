@@ -476,6 +476,19 @@ present와 past는 html 구조가 같고, 논문 입력 방식은 아래와 같�
 
   </details>
 
+# 5. 참고 사항
 
+<details>
+  <summary>펼치기</summary>  
+
+- 추가 및 수정 사항 발생 시, 기존에 작성된 양식을 참조한다.
+- 사진 업로드 했을 때 사진이 깨지는 경우, 사진 파일 이름 및 경로가 전부 영어로 되어 있는지 확인한다.
+- 기본적으로 신규 내용 추가 시 기존의 목록 최상단에 추가한다. student 목록에서 alumni 목록으로 옮길 경우, 왼쪽 최상단에 추가한다.
+- 연구과제 이름을 모아놓은 목록 사이트에 접속 시 IP주소 맨 앞 번호를 203으로 바꿔야 접속 가능하다.
+
+  <img src="https://github.com/user-attachments/assets/c328a1bf-c91c-49fe-ad9f-16c6ec6c125d" width= 600px>
+
+  </details>
+  
 이해 안되는 부분 있으면 아래 이메일로 연락 부탁드립니다.  
 컴퓨터공학과 이채운: redmond0412@gmail.com
