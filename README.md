@@ -483,12 +483,15 @@ present와 past는 html 구조가 같고, 논문 입력 방식은 아래와 같�
 
 - 추가 및 수정 사항 발생 시, 기존에 작성된 양식을 참조한다.
 - Github 홈페이지에서 작업을 했을 경우, 본인 로컬 PC에서 작업 전 반드시 명령어 git pull origin main을 실행하여 충돌 가능성을 조기에 차단한다. 만약 실수로 인해 충돌이 발생했다면 다음 단계를 따라 진행한다.
-1. 먼저 git status를 실행하여 충돌 난 파일을 확인한 뒤 해당 파일을 열어 수동으로 내용을 수정한다.
-2. 이후 변경 사항을 git add .입력하고 커밋한다.
-3. 최종적으로 git push origin main을 실행하여 변경 사항을 push한다.
+  
+   1. 먼저 git status를 실행하여 충돌 난 파일을 확인한 뒤 해당 파일을 열어 수동으로 내용을 수정한다.
+   2. 이후 변경 사항을 git add .입력하고 커밋한다.
+   3. 최종적으로 git push origin main을 실행하여 변경 사항을 push한다.
+      
 - 사진 파일의 확장자는 기본적으로 jpg로 통일한다. 이 때,
-1. 연구실 멤버와 관련된 사진들은 dailab.github.io > assets > member 경로에 저장한다.
-2. news에 게재하여야 할 사진들은 dailab.github.io > assets > news 경로에 저장한다.
+   1. 연구실 멤버와 관련된 사진들은 dailab.github.io > assets > member 경로에 저장한다.
+   2. news에 게재하여야 할 사진들은 dailab.github.io > assets > news 경로에 저장한다.
+      
 - 사진 업로드 했을 때 사진이 깨지는 경우, 사진 파일 이름 및 경로가 전부 영어로 되어 있는지 확인한다. 
 - 기본적으로 신규 내용 추가 시 기존의 목록 최상단에 추가한다. student 목록에서 alumni 목록으로 옮길 경우, 왼쪽 최상단에 추가한다.
 - publication의 경우 최신 업데이트 내용은 present.html에 업로드한다.
