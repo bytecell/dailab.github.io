@@ -736,6 +736,69 @@ body::-webkit-scrollbar-track{
     justify-items: center; /* 각 칸 내에서 중앙 정렬 */
 }
 
+.generation-title {
+    width: 100%;
+    display: flex;
+    margin-top: 5vh; /* 여백 필요 시 조절 */
+    margin-bottom: 20px;
+}
+
+.master-title {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.master-title .p-topic{
+    font-family: 'Roboto Slab';
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    margin-top: 10vh;
+    font-size: clamp(18px, 2vw, 24px);
+    position: relative;
+}
+
+.undergraduate-title {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.undergraduate-title .p-topic{
+    font-family: 'Roboto Slab';
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    margin-top: 10vh;
+    font-size: clamp(18px, 2vw, 24px);
+    position: relative;
+}
+
+.first-gen-area,
+.second-gen-area {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: span 4;
+    width: 100%;
+    justify-content: center;
+}
+
+.second-master,
+.second-undergraduate {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.first-gen-area .img,
+.second-master .img,
+.second-undergraduate .img {
+    width: 200px;
+    text-align: center;
+}
+
 .img {
     display: flex;
     flex-direction: column;
