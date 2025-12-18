@@ -1291,6 +1291,11 @@ body::-webkit-scrollbar-track{
     }
 }
 
+a {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 /*font 설정*/
 
@@ -1361,3 +1366,4 @@ body::-webkit-scrollbar-track{
     font-weight: 600;
     unicode-range: U+AC00-D7A3;
 }
+
